@@ -5,7 +5,7 @@ Summary:	Language::FP perl module
 Summary(pl):	Modu³ perla Language::FP
 Name:		perl-Language-FP
 Version:	0.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
