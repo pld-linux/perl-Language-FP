@@ -5,14 +5,14 @@ Summary:	Language::FP perl module
 Summary(pl):	Modu³ perla Language::FP
 Name:		perl-Language-FP
 Version:	0.03
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Parse-RecDescent >= 0.01
 BuildRequires:	perl-Regexp-Common >= 0.01
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -34,7 +34,8 @@ matematyków).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Language/FP.pm
+%{perl_vendorlib}/Language/FP.pm
 %{_mandir}/man3/*
