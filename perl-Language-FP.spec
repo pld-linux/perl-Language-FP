@@ -28,7 +28,7 @@ mathematicians).
 %description -l pl
 Language::FP to implementacja jêzyka FP Johna Backusa, w pe³ni
 funkcyjnego jêzyka znanego z braku nazwanych zmiennych - nazwy maj±
-jedynie funkcje. Nie jest to celowo zaciemnony jêzyk - zosta³
+jedynie funkcje. Nie jest to celowo zaciemniony jêzyk - zosta³
 zaprojektowany dla rzeczywistych u¿ytkowników (prawdopodobnie
 matematyków).
 
