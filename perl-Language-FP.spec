@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Language
-%define	pnam	FP
+%define		pdir	Language
+%define		pnam	FP
 Summary:	Language::FP perl module
 Summary(pl):	Modu³ perla Language::FP
 Name:		perl-Language-FP
