@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Language::FP
 Name:		perl-Language-FP
 Version:	0.03
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	d272b939b074814325eb504e8cc68dc1
