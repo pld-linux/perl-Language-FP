@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	FP
 Summary:	Language::FP perl module
-Summary(pl):	Modu³ perla Language::FP
+Summary(pl.UTF-8):   ModuÅ‚ perla Language::FP
 Name:		perl-Language-FP
 Version:	0.03
 Release:	3
@@ -25,12 +25,12 @@ purely functional language remarkable for its lack of named variables
 obfuscated language - it was designed for actual users (probably
 mathematicians).
 
-%description -l pl
-Language::FP to implementacja jêzyka FP Johna Backusa, w pe³ni
-funkcyjnego jêzyka znanego z braku nazwanych zmiennych - nazwy maj±
-jedynie funkcje. Nie jest to celowo zaciemniony jêzyk - zosta³
-zaprojektowany dla rzeczywistych u¿ytkowników (prawdopodobnie
-matematyków).
+%description -l pl.UTF-8
+Language::FP to implementacja jÄ™zyka FP Johna Backusa, w peÅ‚ni
+funkcyjnego jÄ™zyka znanego z braku nazwanych zmiennych - nazwy majÄ…
+jedynie funkcje. Nie jest to celowo zaciemniony jÄ™zyk - zostaÅ‚
+zaprojektowany dla rzeczywistych uÅ¼ytkownikÃ³w (prawdopodobnie
+matematykÃ³w).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
