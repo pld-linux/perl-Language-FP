@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	FP
 Summary:	Language::FP perl module
-Summary(pl.UTF-8):   Moduł perla Language::FP
+Summary(pl.UTF-8):	Moduł perla Language::FP
 Name:		perl-Language-FP
 Version:	0.03
 Release:	3
