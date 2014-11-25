@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Language
 %define		pnam	FP
+%include	/usr/lib/rpm/macros.perl
 Summary:	Language::FP perl module
 Summary(pl.UTF-8):	Moduł perla Language::FP
 Name:		perl-Language-FP
@@ -11,9 +11,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	d272b939b074814325eb504e8cc68dc1
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Language-FP/
 BuildRequires:	perl-Parse-RecDescent >= 0.01
 BuildRequires:	perl-Regexp-Common >= 0.01
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
