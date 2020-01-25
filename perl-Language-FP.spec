@@ -1,6 +1,5 @@
 %define		pdir	Language
 %define		pnam	FP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Language::FP perl module
 Summary(pl.UTF-8):	Moduł perla Language::FP
 Name:		perl-Language-FP
